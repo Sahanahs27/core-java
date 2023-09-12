@@ -1,0 +1,3 @@
+class LuluHyper extends Mall {
+
+}

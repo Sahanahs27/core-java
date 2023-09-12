@@ -1,0 +1,3 @@
+class Earring extends Jewellary{
+
+}

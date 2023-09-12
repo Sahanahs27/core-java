@@ -1,0 +1,3 @@
+class AffterEffect extends EditingSoftware{
+
+}

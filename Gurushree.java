@@ -1,0 +1,7 @@
+class Gurushree extends Treater{
+    
+	
+
+
+
+}

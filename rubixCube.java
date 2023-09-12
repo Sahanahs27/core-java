@@ -1,0 +1,3 @@
+class rubixCube extends CombinationalPuzzle{
+
+}
