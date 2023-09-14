@@ -1,5 +1,0 @@
-class Twitter extends SocialMedia{
-
-   
-
-}
