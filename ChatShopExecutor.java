@@ -3,7 +3,7 @@ class ChatShopExecutor{
        public static void main(String chatshop[]) {
         // Create an instance of ChatShopProgram
         ChatShop chatShop = new ChatShop();
-
+        
         // Add chat names
         chatShop.addChatName("panipuri");
         chatShop.addChatName("masal puri");
@@ -14,9 +14,11 @@ class ChatShopExecutor{
 		chatShop.addChatName("sev puri");
 		chatShop.addChatName("Chaat Masala");
 		chatShop.addChatName("Dahi Ragda Chaat");
+		chatShop.addChatName("dahi vada");
 		chatShop.addChatName("Nuppit masala");
-
-        // Display the list of product names
-        chatShop.getChatNames();
+		chatShop.addChatName("golgoppa");
+		
+         chatShop.getChatNames();
+   
     }
 }

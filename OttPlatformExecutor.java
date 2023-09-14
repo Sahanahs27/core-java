@@ -6,7 +6,10 @@ class OttPlatformExecutor{
 	 ottplat.addMovieName("Gaja");
 	 ottplat.addMovieName("Kantara");
 	 ottplat.addMovieName("Appu");
-	 ottplat.addMovieName("Boss");
+	 ottplat.addMovieName("Charli");
+	 ottplat.addMovieName("kirik party");
+	 ottplat.addMovieName("Appu");
+	 ottplat.addMovieName("Kirathaka");
 	 ottplat.getMovieNames();
 	 
 	 }

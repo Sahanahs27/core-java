@@ -10,8 +10,8 @@ class InteriorExe{
 		  in.addInteriors("Texture and Materials");
 		  in.addInteriors("Flooring");
 		  in.addInteriors("Style");
-		  in.addInteriors("Theme ");
-		  in.addInteriors("Accessories ");
+		  in.addInteriors("Theme");
+		  in.addInteriors("Texture and Materials");
 		  in.addInteriors("Decor");
 		  
 		  in.getDetails();

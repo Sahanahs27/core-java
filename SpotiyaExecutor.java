@@ -1,7 +1,7 @@
 class SpotiyaExecutor{
 
         public static void main(String[] args) {
-        // Create an instance of SpotiyaMusicPlayer
+        // Create an instance of Spotiya
         Spotiya spotiya = new Spotiya();
 
         // Add song names
@@ -15,7 +15,7 @@ class SpotiyaExecutor{
         spotiya.addSongName("kanassugarana ondhu kanasu");
         spotiya.addSongName("Singara siriye");
         spotiya.addSongName("Basanni baa");
-        spotiya.addSongName("Anisutidhe yako yendhu");
+		spotiya.addSongName("Singara siriye");
 
         // Display the playlist
         spotiya.displaySongs();
