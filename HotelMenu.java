@@ -1,4 +1,4 @@
-class Hotel {
+class HotelMenu {
 
     String menuItems[] = new String[10];
     int index;
@@ -27,6 +27,7 @@ class Hotel {
         return isAdded;
     }
 
+   //read
     public void displayMenu() {
         System.out.println("Hotel Menu:");
         for (int index = 0; index < menuItems.length; index++) {
@@ -48,6 +49,35 @@ class Hotel {
 	       }
 		     return exists;
         }
-
-
+		
+		
+		
+		// Search for a MenuItem
+	public String searchByMenuItem( String menuItem)
+		{      
+			for(int i=0;i<menuItems.length;i++)
+			{
+				if(menuItems[i]==menuItem)
+					  return menuItem;
+			}
+			 return null;
+		}
+		
+	public boolean deletedByMenu(String menuItem)
+	{
+		boolean isDeleted=false;
+		int ind=0;
+		for(int i=0;i<menuItems.length;i++)
+		{
+			if(menuItems[i]!=menuItem)
+			{
+				menuItems[ind++]=menuItems[i];
+				isDeleted=true;
+			}
+			 
+		}
+		return isDeleted;
+		
+	}		
 }
+		

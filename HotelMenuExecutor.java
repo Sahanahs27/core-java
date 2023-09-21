@@ -1,8 +1,8 @@
-class HotelExecutor{
+class HotelMenuExecutor{
   
      public static void main(String hotelmenu[]) {
         // Create an instance of Hotel
-        Hotel hotelMenu = new Hotel();
+        HotelMenu hotelMenu = new HotelMenu();
         hotelMenu.addMenuItem("masaldose");
         hotelMenu.addMenuItem("paroota");
         hotelMenu.addMenuItem("egg rice");
@@ -16,5 +16,19 @@ class HotelExecutor{
 
         // Display the menu
         hotelMenu.displayMenu();
+		
+		String menuItem="egg biriyani";
+		System.out.println("Searching for the menu item " +menuItem);
+		String item=hotelMenu.searchByMenuItem(menuItem);
+		System.out.println(item +" is found! thank you searching. " );
+		
+		
+		
+		String mName="fish kabab";
+	boolean  deletedMenu=hotelMenu.deletedByMenu(mName);
+	System.out.println("is " + mName +" menu deleted ? : " +deletedMenu);
+        
+		
+		
     }
 }
